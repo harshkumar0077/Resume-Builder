@@ -6,7 +6,7 @@ import { GrMail } from 'react-icons/gr'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import ResumeContext from '../../Context/ResumeContext'
 
-const Theme1 = (props) => {
+const   Theme1 = (props) => {
     const { checkProj, checkWork, checkAward } = useContext(ResumeContext)
     const { themeData, componentRef } = props;
     const { name, profile, address, phone, email, skill } = themeData.personalData;
