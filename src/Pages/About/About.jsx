@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 
 const testimonials = [
   {
-    name: "Harsh Kumar",
+    name: "",
     role: "Frontend Web Developer",
     content:
       "A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.",
@@ -72,7 +72,7 @@ function TestimonialCard(props) {
           {content}
         </chakra.p>
         <chakra.p
-          fontFamily={"Work Sans"}
+          fontFamily={"Inter"}
           color={useColorModeValue("gray.700", "gray.50")}
           fontWeight={"bold"}
           fontSize={14}
